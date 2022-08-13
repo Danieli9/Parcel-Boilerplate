@@ -3,12 +3,14 @@ h1 {
     color: transparent;
     background-clip: text;
     font-size: 100px;
+    display: inline-block;
+    width: fit-content;
 }
-.test {
-    display: flex;
-}
-h2 {
+h6 {
     background: linear-gradient(90deg, rgba(62,235,64,1) 0%, rgba(55,35,209,1) 100%);
     color: transparent;
     background-clip: text;
+    font-size: 100px;
+    display: inline-block;
+    width: fit-content;
 }
