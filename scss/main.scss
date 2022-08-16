@@ -1,16 +1,26 @@
-h1 {
-    background: linear-gradient(90deg, rgba(62,235,64,1) 0%, rgba(55,35,209,1) 100%);
-    color: transparent;
-    background-clip: text;
-    font-size: 100px;
-    display: inline-block;
-    width: fit-content;
-}
-h6 {
-    background: linear-gradient(90deg, rgba(62,235,64,1) 0%, rgba(55,35,209,1) 100%);
-    color: transparent;
-    background-clip: text;
-    font-size: 100px;
-    display: inline-block;
-    width: fit-content;
-}
+// Abstract files
+@import "abstracts/variables";
+
+// Vendor Files
+@import "vendors/bootstrap";
+
+// Core files
+@import "core/reset";
+@import "core/typography";
+
+// Components
+@import "components/buttons";
+@import "components/slider";
+
+// Layout
+@import "layout/footer";
+@import "layout/header";
+@import "layout/navigation";
+
+// Sections
+@import "sections/cta";
+@import "sections/hero";
+
+// Pages
+@import "pages/home";
+@import "pages/about";

@@ -1,7 +1,6 @@
 {
-    "modules": true,
     "plugins": {
       "postcss-uncss": {"html": "src/*.html"}
     }
-  }
+}
   
